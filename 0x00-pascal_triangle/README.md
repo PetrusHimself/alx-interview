@@ -50,7 +50,7 @@ This project focuses on creating a Python function to generate Pascal’s Triang
     *   You can assume `n` will always be an integer.
 4.  **Example Solution:**
     
-    def pascal_triangle(n):
+    `def pascal_triangle(n):
             if n <= 0:
                 return []
             triangle = [[1]]
@@ -60,7 +60,7 @@ This project focuses on creating a Python function to generate Pascal’s Triang
                     row.append(triangle[i - 1][j - 1] + triangle[i - 1][j])
                 row.append(1)
                 triangle.append(row)
-            return triangle
+            return triangle`
     
 5.  **Usage:**
     
